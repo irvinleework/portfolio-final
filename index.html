@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    
+        <nav class="navbar sticky-top navbar-expand bg-white navbar-light">
+            <a href="#" class="navbar-brand"><i class="fas fa-code" style="color: #b2dfee"></i></a>
+            <div class="container">
+                <ul class="navbar-nav ms-auto row">
+                    <li class="nav-item col">
+                        <a class="nav-link" style="color: #b2dfee" href="#myStory">About</a>
+                    </li>
+                    <li class="nav-item col">
+                        <a class="nav-link" style="color: #b2dfee" href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item col">
+                        <a class="nav-link" style="color: #b2dfee" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+    <div class="container" id="introduction">
+        <div class="row justify-content-end">
+            <div class="col-xl-6">
+                <h1>Hello.<br>I am Irvin<br>An aspiring web developer.</h1>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="container section" id="myStory">
+        <div class="row">
+            <div class="col-xl-6 justify-content-start">
+                <h1 class="mb-3">About Me</h1>
+                <p style="color: black;">
+                    Prior to learning computor programming, I was working as a cashier in a supermarket. As the pandemic hit, I was considered an essential worker and worked all throughout the height of the covid pandemic. During this time, I realized I needed a career change and looked into computor programming.
+                </p>
+                <p class="mt-1" style="color: black;">
+                    Now a student at Eleven Fifty Academy, I am passionate about contructing well-built websites to make the user experience as smooth as possible.
+                </p>
+                <p class="resume" style="color: black;">Heres my <a href="assets/Resume.docx" download>resume</a></p>
+            </div>
+            <div class="col-xl-6 justify-content-end">
+                <img class="stock-photo" src="assets/stock-photo.jpeg">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="Skills">
+        <h1 class="text-center" id="Skills.Text">
+            My skills
+        </h1>
+        <div class="row justify-content-center">
+            <div class="col-3 text-center">
+                <i class="fab fa-html5 fa-10x"></i>
+                <p>HTML5 / CSS3</p>
+            </div>
+            <div class="col-3 text-center">
+                <i class="fab fa-js-square fa-10x"></i>
+                <p>JAVASCRIPT</p>
+            </div>
+            <div class="col-3 text-center">
+                <i class="fab fa-bootstrap fa-10x"></i>
+                <p>BOOTSTRAP5</p>
+            </div>
+            <div class="col-3 text-center">
+                <i class="fab fa-github-square fa-10x"></i>
+                <p>GITHUB</p>
+            </div>
+        </div>
+    </div>
+    <div class="container section">
+        <div class="Portfolio" id="Portfolio">
+            <h1 class="Portfolio.text text-center">Portfolio</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col remove-all-margin-padding" id="OnePiece">
+                <a target="_blank" href="https://codepen.io/geniusdude42/pen/mdwMLzo">
+                    <img class="OnePiece" src="assets/OnePiece.png" alt="OnePiece">
+                    <div class="img_Hover">
+                        <div class="img_Hover_Title">OnePiece</div>
+                        <p class="img_Hover_Description text-center">
+                            A codepen creature made solely through css
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col remove-all-margin-padding">
+                <a target="_blank" href="https://irvinleework.github.io/Static-Layout-Assignment/">
+                    <img class="StaticLayout" src="assets/StaticLayout.png" alt="StaticLayout">
+                    <div class="img_Hover">
+                        <div class="img_Hover_Title">Grammarly</div>
+                        <p class="img_Hover_Description text-center">
+                            A static design of Grammarly's homepage using html/css
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col remove-all-margin-padding">
+                <a target="_blank" href="https://irvinleework.github.io/POKEAPI/">
+                    <img class="POKIAPI" src="assets/PokiAPI.png" alt="PokiAPI">
+                    <div class="img_Hover">
+                        <div class="img_Hover_Title">PokeLocation</div>
+                        <p class="img_Hover_Description text-center">
+                            Designed an app to find the location of Pokemon in the Pokemon game series
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col remove-all-margin-padding">
+                <a target="_blank" href="www.google.com">
+                    <img class="API2" src="assets/PokiAPI.png" alt="API2">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+        <div class="contact text-center" id="contact">
+            <h1 class="section">
+                Contact Me
+            </h1>
+        </div>
+    <div class="container">
+        <div class="contact_Me">
+            <form action="https://formspree.io/f/xayakapq"
+            method="POST">
+            
+            <label for="fullname">Full Name</label>
+            <input class="inputfield" type="text" name="name" class="name">
+        
+            <label for="email">Email Address</label>
+            <input class="inputfield" type="email" name="email">
+          
+            <label for="phonenumber">Phone Number</label>
+            <input class="inputfield" type="text" name="phonenumber">
+                                                                    
+            <label for="message">Message</label>
+            <input class="inputfield inputMessage" type="text" name="message">                                                        
+                                                                
+                                                                  
+            <input class="button" type="submit" value="Send">
+        
+          </form> 
+          </div>
+    </div>
+    <footer class="bg-light text-center mt-5">
+        <div class="container px-5">
+            
+                <section class="mb-4 d-inline-flex">
+                    <a class="btn btn-floating" href="https://github.com/irvinleework" role="button">
+                        <i class="fab fa-github fa-2x" id="button"></i>
+                    </a>
+                </section>
+                <section class="mb-4 d-inline-flex">
+                    <a class="btn btn-floating" href="https://www.linkedin.com/in/irvin-lee-805061223/" role="button">
+                        <i class="fab fa-linkedin fa-2x" id="button"></i>
+                    </a>
+                </section>
+        </div>
+        <div class="text-center p-3" style="color: black;">
+            © 2021 Copyright: Irvin Lee
+
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body {
+    color: #b2dfee;
+    scroll-behavior: smooth;
+}
+
+#introduction {
+    margin-bottom: 20em;
+    margin-top: 10em;
+    
+}
+.section {
+    scroll-margin-top: 3em;
+}
+#myStory {
+    margin-bottom: 20em;
+}
+#Skills {
+    margin-bottom: 20em;
+}
+.Portfolio {
+    scroll-margin-top: 3em;
+    margin-bottom: 4em;
+    
+}
+img {
+    width: 15em;
+    height: 16em;
+}
+.remove-all-margin-padding {
+    position: relative;
+    margin:0 ! important;
+    padding:0 ! important;
+    
+}
+.StaticLayout {
+    display: block;
+    width: 100%;
+}
+.OnePiece {
+    display: block;
+    width: 100%;
+}
+.POKIAPI {
+    display: block;
+    width: 100%;
+}
+.img_Hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #b2dfee;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.img_Hover:hover {
+    opacity: 1;
+}
+.img_Hover_Title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.contact{
+    margin-top: 10em;
+    scroll-margin-top: 3em;
+}
+.contact_Me {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3em;
+}
+label {
+    display: block;
+    text-align: start;
+    color: black;
+}
+  
+  
+form {
+    width: 600px;
+    border-radius: 17px;
+    padding: 20px;
+    box-shadow: 0 10px 20px #b2dfee, 0 6px 6px #4c5f66;
+}
+  
+  
+.inputfield {
+    font-size: 1.1em;
+    display: block;
+    height: 2em;
+    width: 100%;
+    outline: none;
+    border: 3px solid rgba(102,51,153,0);
+    background: rgb(228, 228, 228);
+    margin: 1em 0 1em 0;
+    padding: 2em;
+}
+.inputMessage {
+    width: 100%;
+    height: 10em;
+}
+  
+  
+.button {
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    transition: transform .5s;
+    
+}
+  
+.button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    color:#b2dfee;
+}
+#button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    color:#b2dfee;
+}
+#txt {
+    color: #b2dfee;
+}
+.stock-photo {
+    width: 65%;
+    height: 30em;
+    margin-left: 5em;
+}
+.resume {
+    text-decoration: none;
+}
