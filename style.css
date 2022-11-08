@@ -44,6 +44,14 @@ img {
     display: block;
     width: 100%;
 }
+.WEATHERAPI {
+    display: block;
+    width: 100%
+}
+.Charcreator {
+    display: block;
+    width: 100%
+}
 .img_Hover {
     position: absolute;
     top: 0;
@@ -139,4 +147,30 @@ form {
 }
 .resume {
     text-decoration: none;
+}
+.console-container {
+    font-size: 3em;
+    height:200px;
+    width: 600px;
+    position: absolute;
+    display: block;
+    text-align: left
+}
+.console-bar {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: -10px;
+    color: black
+}
+.hidden {
+    opacity: 0;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#Portfolio-flex {
+    display: flex;
+    flex-wrap: wrap;
 }
